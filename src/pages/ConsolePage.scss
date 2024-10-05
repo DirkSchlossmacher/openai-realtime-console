@@ -12,6 +12,12 @@
     flex-shrink: 0;
   }
 
+  @media (min-width: 1200px) {
+    .content-right {
+      width: 20%; /* Set ideal width */
+    }
+  }
+
   .spacer {
     flex-grow: 1;
   }
@@ -66,7 +72,7 @@
       }
     }
     .content-right {
-      width: 300px;
+      min-width: 10%;
       flex-shrink: 0;
       display: flex;
       flex-direction: column;
