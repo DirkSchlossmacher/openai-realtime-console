@@ -50,8 +50,9 @@
     .content-block {
       display: flex;
       flex-direction: column;
-      max-height: 100%;
-      width: 100%;
+      max-height: 30%;
+      min-width: 50%;
+      max-width: 90%;
 
       .content-block-title {
         padding: 16px 0 4px;
